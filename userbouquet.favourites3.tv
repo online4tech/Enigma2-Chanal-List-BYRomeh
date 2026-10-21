@@ -1,0 +1,227 @@
+#NAME ★★★|| Quran Al Muaiqly ||★★★
+#SERVICE 4097:0:1:8DF4:1D7B:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/001.mp3
+#DESCRIPTION سورة الفاتحة
+#SERVICE 4097:0:1:8DF4:8BC:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/002.mp3
+#DESCRIPTION سورة البقرة
+#SERVICE 4097:0:1:8DF4:257D:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/003.mp3
+#DESCRIPTION سورة آل عمران
+#SERVICE 4097:0:1:8DF4:31B6:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/004.mp3
+#DESCRIPTION سورة النساء
+#SERVICE 4097:0:1:8DF4:18B8:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/006.mp3
+#DESCRIPTION سورة الأنعام
+#SERVICE 4097:0:1:8DF4:3579:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/007.mp3
+#DESCRIPTION سورة الأعراف
+#SERVICE 4097:0:1:8DF4:41B2:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/008.mp3
+#DESCRIPTION سورة الأنفال
+#SERVICE 4097:0:1:8DF4:3D73:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/009.mp3
+#DESCRIPTION سورة التوبة
+#SERVICE 4097:0:1:891F:191F:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/010.mp3
+#DESCRIPTION سورة يونس
+#SERVICE 4097:0:1:891:F14E:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/011.mp3
+#DESCRIPTION سورة هود
+#SERVICE 4097:0:1:891F:21:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/012.mp3
+#DESCRIPTION سورة يوسف
+#SERVICE 4097:0:1:891F:1CE2:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/013.mp3
+#DESCRIPTION سورة الرعد
+#SERVICE 4097:0:1:891F:291B:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/014.mp3
+#DESCRIPTION سورة إبراهيم
+#SERVICE 4097:0:1:891F:24DC:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/015.mp3
+#DESCRIPTION سورة الحجر
+#SERVICE 4097:0:1:891F:101D:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/016.mp3
+#DESCRIPTION سورة النحل
+#SERVICE 4097:0:1:891F:2CDE:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/017.mp3
+#DESCRIPTION سورة الإسراء
+#SERVICE 4097:0:1:891F:3917:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/018.mp3
+#DESCRIPTION سورة الكهف
+#SERVICE 4097:0:1:891F:34D8:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/019.mp3
+#DESCRIPTION سورة مريم
+#SERVICE 4097:0:1:979:E32F:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/020.mp3
+#DESCRIPTION سورة طه
+#SERVICE 4097:0:1:979E:2EB1:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/021.mp3
+#DESCRIPTION سورة الأنبياء
+#SERVICE 4097:0:1:979E:19F2:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/022.mp3
+#DESCRIPTION سورة الحج
+#SERVICE 4097:0:1:979E:36B3:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/023.mp3
+#DESCRIPTION سورة المؤمنون
+#SERVICE 4097:0:1:979E:42EC:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/024.mp3
+#DESCRIPTION سورة النور
+#SERVICE 4097:0:1:979E:3EAD:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/025.mp3
+#DESCRIPTION سورة الفرقان
+#SERVICE 4097:0:1:979E:29EE:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/026.mp3
+#DESCRIPTION سورة الشعراء
+#SERVICE 4097:0:1:979E:46AF:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/027.mp3
+#DESCRIPTION سورة النمل
+#SERVICE 4097:0:1:979E:52E8:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/028.mp3
+#DESCRIPTION سورة القصص
+#SERVICE 4097:0:1:979E:4EA9:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/029.mp3
+#DESCRIPTION سورة العنكبوت
+#SERVICE 4097:0:1:92C9:2A55:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/030.mp3
+#DESCRIPTION سورة الروم
+#SERVICE 4097:0:1:92C9:2616:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/031.mp3
+#DESCRIPTION سورة لقمان
+#SERVICE 4097:0:1:92C9:1157:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/032.mp3
+#DESCRIPTION سورة السجدة
+#SERVICE 4097:0:1:92C9:2E18:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/033.mp3
+#DESCRIPTION سورة الأحزاب
+#SERVICE 4097:0:1:92C9:3A51:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/034.mp3
+#DESCRIPTION سورة سبأ
+#SERVICE 4097:0:1:92C9:3612:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/035.mp3
+#DESCRIPTION سورة فاطر
+#SERVICE 4097:0:1:92C9:2153:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/036.mp3
+#DESCRIPTION سورة يس
+#SERVICE 4097:0:1:92C9:3E14:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/037.mp3
+#DESCRIPTION سورة الصافات
+#SERVICE 4097:0:1:92C9:4A4D:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/038.mp3
+#DESCRIPTION سورة ص
+#SERVICE 4097:0:1:92C9:460E:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/039.mp3
+#DESCRIPTION سورة الزمر
+#SERVICE 4097:0:1:A148:4426:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/040.mp3
+#DESCRIPTION سورة غافر
+#SERVICE 4097:0:1:A148:3FE7:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/041.mp3
+#DESCRIPTION سورة فصلت
+#SERVICE 4097:0:1:A148:2B28:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/042.mp3
+#DESCRIPTION سورة الشورى
+#SERVICE 4097:0:1:A148:47E9:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/043.mp3
+#DESCRIPTION سورة الزخرف
+#SERVICE 4097:0:1:A148:5422:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/044.mp3
+#DESCRIPTION سورة الدخان
+#SERVICE 4097:0:1:A148:4FE3:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/045.mp3
+#DESCRIPTION سورة الجاثية
+#SERVICE 4097:0:1:A148:3B24:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/046.mp3
+#DESCRIPTION سورة الأحقاف
+#SERVICE 4097:0:1:A148:57E5:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/047.mp3
+#DESCRIPTION سورة محمد
+#SERVICE 4097:0:1:A148:641E:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/048.mp3
+#DESCRIPTION سورة الفتح
+#SERVICE 4097:0:1:A148:5FDF:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/049.mp3
+#DESCRIPTION سورة الحجرات
+#SERVICE 4097:0:1:9C73:3B8B:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/050.mp3
+#DESCRIPTION سورة ق
+#SERVICE 4097:0:1:9C73:374C:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/051.mp3
+#DESCRIPTION سورة الذاريات
+#SERVICE 4097:0:1:9C73:228D:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/052.mp3
+#DESCRIPTION سورة الطور
+#SERVICE 4097:0:1:9C73:3F4E:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/053.mp3
+#DESCRIPTION سورة النجم
+#SERVICE 4097:0:1:9C73:4B87:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/054.mp3
+#DESCRIPTION سورة القمر
+#SERVICE 4097:0:1:9C73:4748:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/055.mp3
+#DESCRIPTION سورة الرحمن
+#SERVICE 4097:0:1:9C73:3289:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/056.mp3
+#DESCRIPTION سورة الواقعة
+#SERVICE 4097:0:1:9C73:4F4A:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/057.mp3
+#DESCRIPTION سورة الحديد
+#SERVICE 4097:0:1:9C73:5B83:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/058.mp3
+#DESCRIPTION سورة المجادلة
+#SERVICE 4097:0:1:9C73:5744:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/059.mp3
+#DESCRIPTION سورة الحشر
+#SERVICE 4097:0:1:AAF2:555C:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/060.mp3
+#DESCRIPTION سورة الممتحنة
+#SERVICE 4097:0:1:AAF2:511D:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/061.mp3
+#DESCRIPTION سورة الصف
+#SERVICE 4097:0:1:AAF2:3C5E:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/062.mp3
+#DESCRIPTION سورة الجمعة
+#SERVICE 4097:0:1:AAF2:591F:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/063.mp3
+#DESCRIPTION سورة المنافقون
+#SERVICE 4097:0:1:AAF2:6558:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/064.mp3
+#DESCRIPTION سورة التغابن
+#SERVICE 4097:0:1:AAF2:6119:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/065.mp3
+#DESCRIPTION سورة الطلاق
+#SERVICE 4097:0:1:AAF2:4C5A:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/066.mp3
+#DESCRIPTION سورة التحريم
+#SERVICE 4097:0:1:AAF2:691B:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/067.mp3
+#DESCRIPTION سورة الملك
+#SERVICE 4097:0:1:AAF2:7554:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/068.mp3
+#DESCRIPTION سورة القلم
+#SERVICE 4097:0:1:AAF2:7115:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/069.mp3
+#DESCRIPTION سورة الحاقة
+#SERVICE 4097:0:1:A61D:4CC1:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/070.mp3
+#DESCRIPTION سورة المعارج
+#SERVICE 4097:0:1:A61D:4882:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/071.mp3
+#DESCRIPTION سورة نوح
+#SERVICE 4097:0:1:A61D:33C3:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/072.mp3
+#DESCRIPTION سورة الجن
+#SERVICE 4097:0:1:A61D:5084:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/073.mp3
+#DESCRIPTION سورة المزمل
+#SERVICE 4097:0:1:A61D:5CBD:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/074.mp3
+#DESCRIPTION سورة المدثر
+#SERVICE 4097:0:1:A61D:587E:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/075.mp3
+#DESCRIPTION سورة القيامة
+#SERVICE 4097:0:1:A61D:43BF:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/076.mp3
+#DESCRIPTION سورة الإنسان
+#SERVICE 4097:0:1:A61:D608:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/077.mp3
+#DESCRIPTION سورة المرسلات
+#SERVICE 4097:0:1:A61D:6CB9:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/078.mp3
+#DESCRIPTION سورة النبأ
+#SERVICE 4097:0:1:A61D:687A:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/079.mp3
+#DESCRIPTION سورة النازعات
+#SERVICE 4097:0:1:674B:DCE2:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/080.mp3
+#DESCRIPTION سورة عبس
+#SERVICE 4097:0:1:674B:D8A3:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/081.mp3
+#DESCRIPTION سورة التكوير
+#SERVICE 4097:0:1:674B:C3E4:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/082.mp3
+#DESCRIPTION سورة الانفطار
+#SERVICE 4097:0:1:674B:E0A5:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/083.mp3
+#DESCRIPTION سورة المطففين
+#SERVICE 4097:0:1:674B:ECDE:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/084.mp3
+#DESCRIPTION سورة الانشقاق
+#SERVICE 4097:0:1:674B:E89F:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/085.mp3
+#DESCRIPTION سورة البروج
+#SERVICE 4097:0:1:674:BD3E:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/086.mp3
+#DESCRIPTION سورة الطارق
+#SERVICE 4097:0:1:674B:F0A1:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/087.mp3
+#DESCRIPTION سورة الأعلى
+#SERVICE 4097:0:1:674B:FCDA:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/088.mp3
+#DESCRIPTION سورة الغاشية
+#SERVICE 4097:0:1:674B:F89B:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/089.mp3
+#DESCRIPTION سورة الفجر
+#SERVICE 4097:0:1:6276:D447:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/090.mp3
+#DESCRIPTION سورة البلد
+#SERVICE 4097:0:1:6276:D008:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/091.mp3
+#DESCRIPTION سورة الشمس
+#SERVICE 4097:0:1:6276:BB49:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/092.mp3
+#DESCRIPTION سورة الليل
+#SERVICE 4097:0:1:6276:D80A:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/093.mp3
+#DESCRIPTION سورة الضحى
+#SERVICE 4097:0:1:6276:E443:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/094.mp3
+#DESCRIPTION سورة الشرح
+#SERVICE 4097:0:1:6276:E004:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/095.mp3
+#DESCRIPTION سورة التين
+#SERVICE 4097:0:1:6276:CB45:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/096.mp3
+#DESCRIPTION سورة العلق
+#SERVICE 4097:0:1:6276:E806:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/097.mp3
+#DESCRIPTION سورة القدر
+#SERVICE 4097:0:1:6276:F43F:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/098.mp3
+#DESCRIPTION سورة البينة
+#SERVICE 4097:0:1:62:76F:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/099.mp3
+#DESCRIPTION سورة الزلزلة
+#SERVICE 4097:0:1:8DF3:9DDB:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/100.mp3
+#DESCRIPTION سورة العاديات
+#SERVICE 4097:0:1:8DF3:A21A:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/101.mp3
+#DESCRIPTION سورة القارعة
+#SERVICE 4097:0:1:8DF3:84DD:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/102.mp3
+#DESCRIPTION سورة التكاثر
+#SERVICE 4097:0:1:8DF3:891C:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/103.mp3
+#DESCRIPTION سورة العصر
+#SERVICE 4097:0:1:8DF3:ADD7:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/104.mp3
+#DESCRIPTION سورة الهمزة
+#SERVICE 4097:0:1:8DF3:B216:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/105.mp3
+#DESCRIPTION سورة الفيل
+#SERVICE 4097:0:1:8DF3:94D9:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/106.mp3
+#DESCRIPTION سورة قريش
+#SERVICE 4097:0:1:8DF3:9918:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/107.mp3
+#DESCRIPTION سورة الماعون
+#SERVICE 4097:0:1:8DF3:BDD3:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/108.mp3
+#DESCRIPTION سورة الكوثر
+#SERVICE 4097:0:1:8DF3:C212:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/109.mp3
+#DESCRIPTION سورة الكافرون
+#SERVICE 4097:0:1:891:E954:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/110.mp3
+#DESCRIPTION سورة النصر
+#SERVICE 4097:0:1:891E:997F:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/111.mp3
+#DESCRIPTION سورة المسد
+#SERVICE 4097:0:1:891E:7C42:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/112.mp3
+#DESCRIPTION سورة الإخلاص
+#SERVICE 4097:0:1:891E:8081:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/113.mp3
+#DESCRIPTION سورة الفلق
+#SERVICE 4097:0:1:891E:A53C:EC:0:0:0:0:https%3a//download.quranicaudio.com/quran/maher_256/114.mp3
+#DESCRIPTION سورة الناس

@@ -1,0 +1,82 @@
+#NAME User - Bouquets (tv)
+#SERVICE 1:64:0:0:0:0:0:0:0:0::►►►►►►►►►►  ( Online 4 Tech BY Romeh 01092978131  )◄ ◄ ◄ ◄◄ ◄◄◄
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.RD_Quran.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.buket_sport.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.buket_movie.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.buket_docu.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.buket_kids.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.buket_abertis.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.buket_multistream.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.buket_t2mi.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.buket_uhd.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.buket_emu.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.favourites_1_1_1.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.favourites2.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.favourites3.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.♣♣♣_Moras_DiSEqC_♣♣♣_1_1_1.tv" ORDER BY bouquet
+#SERVICE 1:64:0:0:0:0:0:0:0:0::►►►►►►►►►►  ( Online 4 Tech BY Romeh 01092978131  )◄ ◄ ◄ ◄◄ ◄◄◄
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.dbe01.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ec_eutelsat_7w.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.dbe081_1_1_1_1_1.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.nilesat.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.osn__tv_.tv" ORDER BY bouquet
+#SERVICE 1:64:0:0:0:0:0:0:0:0::►►►►►►►►►►  ( Online 4 Tech BY Romeh 01092978131  )◄ ◄ ◄ ◄◄ ◄◄◄
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.34_5w_ku_band_intelsat_35e___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.30_0w_spainsat___hispasat_30w_5_30w_6___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ciefp_30w_meotv.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ciefp_30w_nos.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ciefp_30w_abertis.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.22_0w_ku_band_ses_4___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.15_0w_telstar_12_vantage___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.14_0w_ku_band_express_am8___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:64:0:0:0:0:0:0:0:0::►►►►►►►►►►  ( Online 4 Tech BY Romeh 01092978131  )◄ ◄ ◄ ◄◄ ◄◄◄
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.4_0w_amos_3___dror_1___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.3_0w_ku_band_abs_3a___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.0_8w_ku_band_thor_5_6_7___intelsat_10_02___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.1_9e_bulgariasat_1___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.3_0e_ku_band_eutelsat_3b___rascom_qaf_1r___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.4_8e_ku_band_astra_4a___ses_5___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.7_0e_ku_band_eutelsat_7b_7c___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.9_0e_ku_band_eutelsat_9b___ka_sat_9a___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.10_0e_ku_band_eutelsat_10b___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:64:0:0:0:0:0:0:0:0::►►►►►►►►►►  ( Online 4 Tech BY Romeh 01092978131  )◄ ◄ ◄ ◄◄ ◄◄◄
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.13_0e_hotbird_13f_13g___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ciefp_13e_skyitalia_icam.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.16_0e_ku_band_eutelsat_16a___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.19_2e_astra_1kr_1l_1m_1n___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.dbe0c.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ciefp_19e_skyde_icam.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.21_5e_eutelsat_21b___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.23_5e_astra_3b_3c___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.26_0e_ku_band_badr_5_7_8___eshail_2___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.30_5e_arabsat_5a_6a___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:64:0:0:0:0:0:0:0:0::►►►►►►►►►►  ( Online 4 Tech BY Romeh 01092978131  )◄ ◄ ◄ ◄◄ ◄◄◄
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.36_0e_eutelsat_36b___express_amu1___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.39_0e_hellas_sat_3_4___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ciefp_39e_ert.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ciefp_39e_polaris.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ciefp_39e_dolce.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ciefp_39e_a1bg.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ciefp_39e_tring.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.42_0e_ku_band_t_rksat_3a_4a_5b___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ciefp_42e_turksat.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ciefp_42e_digiturk.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ciefp_42e_dsmart.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ciefp_42e_tivibu.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ciefp_39e_hellas.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.46_0e_ku_band_azerspace_1___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:64:0:0:0:0:0:0:0:0::►►►►►►►►►►  ( Online 4 Tech BY Romeh 01092978131  )◄ ◄ ◄ ◄◄ ◄◄◄
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.52_5e_al_yah_1___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.57_0e_ku_band_nss_12___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:64:0:0:0:0:0:0:0:0::►►►►►►►►►►  ( Online 4 Tech BY Romeh 01092978131  )◄ ◄ ◄ ◄◄ ◄◄◄
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.62_0e_ku_band_intelsat_39___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.68_5e_ku_band_intelsat_20_36___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.70_5e_eutelsat_70b___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.75_0e_ku_band_abs_2_2a___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.78_5e_ku_band_thaicom_6_8___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.90_0e_ku_band_yamal_401___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.100_5e_ku_band_asiasat_5___services__tv_.tv" ORDER BY bouquet
+#SERVICE 1:64:0:0:0:0:0:0:0:0::►►►►►►►►►►  ( Online 4 Tech BY Romeh 01092978131  )◄ ◄ ◄ ◄◄ ◄◄◄
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.favourites.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.furybiss_feeds.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.LastScanned.tv" ORDER BY bouquet
