@@ -6,42 +6,39 @@
     <title>قائمة قنوات Enigma2 - BYRomeh</title>
     <meta
       name="description"
-      content="تحميل قائمة قنوات Enigma2 بسهولة وسرعة، مع شرح طريقة النقل إلى جهاز الاستقبال عبر USB أو FTP أو Telnet/SSH."
+      content="تحميل قائمة قنوات Enigma2 بسهولة وسرعة مع تصميم احترافي وعرض صور أجهزة الاستقبال مثل Vu+ و Dreambox."
     />
     <style>
       :root {
         --bg: #07111d;
-        --bg2: #0d1d2d;
-        --panel: #12253d;
-        --panel-2: #18334f;
+        --bg2: #0e1d2d;
+        --panel: rgba(17, 30, 45, 0.86);
+        --panel-2: rgba(25, 42, 60, 0.9);
         --primary: #2dd4bf;
         --primary-2: #38bdf8;
         --accent: #fbbf24;
         --success: #22c55e;
+        --danger: #ef4444;
         --text: #edf7ff;
-        --muted: #bcd4eb;
+        --muted: #bdd6eb;
         --border: rgba(255, 255, 255, 0.08);
-        --shadow: 0 22px 50px rgba(2, 6, 23, 0.5);
+        --shadow: 0 24px 50px rgba(2, 6, 23, 0.5);
       }
 
       * { box-sizing: border-box; }
-
       html { scroll-behavior: smooth; }
 
       body {
         margin: 0;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         background:
-          radial-gradient(circle at top, rgba(56, 189, 248, 0.18), transparent 28%),
-          linear-gradient(135deg, var(--bg) 0%, var(--bg2) 100%);
+          linear-gradient(135deg, rgba(7, 17, 29, 0.94), rgba(14, 29, 45, 0.94)),
+          url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80') center/cover fixed no-repeat;
         color: var(--text);
         line-height: 1.7;
       }
 
-      a {
-        text-decoration: none;
-        color: inherit;
-      }
+      a { text-decoration: none; color: inherit; }
 
       .container {
         width: min(1180px, calc(100% - 30px));
@@ -52,7 +49,7 @@
         position: sticky;
         top: 0;
         z-index: 200;
-        backdrop-filter: blur(12px);
+        backdrop-filter: blur(14px);
         background: rgba(7, 17, 29, 0.72);
         border-bottom: 1px solid var(--border);
       }
@@ -62,7 +59,7 @@
         align-items: center;
         justify-content: space-between;
         gap: 18px;
-        height: 76px;
+        min-height: 76px;
       }
 
       .brand {
@@ -89,9 +86,7 @@
         font-size: 0.95rem;
       }
 
-      .nav a:hover {
-        color: var(--text);
-      }
+      .nav a:hover { color: var(--text); }
 
       .btn {
         display: inline-flex;
@@ -106,14 +101,12 @@
         cursor: pointer;
       }
 
-      .btn:hover {
-        transform: translateY(-1px);
-      }
+      .btn:hover { transform: translateY(-1px); }
 
       .btn-primary {
         background: linear-gradient(135deg, var(--primary), var(--primary-2));
-        color: #051922;
-        box-shadow: 0 18px 30px rgba(45, 212, 191, 0.27);
+        color: #071922;
+        box-shadow: 0 18px 30px rgba(45, 212, 191, 0.28);
       }
 
       .btn-secondary {
@@ -123,40 +116,40 @@
       }
 
       .hero {
-        padding: 62px 0 28px;
+        padding: 64px 0 28px;
       }
 
       .hero-box {
         position: relative;
-        background: linear-gradient(135deg, rgba(18, 36, 56, 0.96), rgba(11, 20, 30, 0.94));
-        border: 1px solid var(--border);
-        border-radius: 30px;
         overflow: hidden;
-        padding: 36px 32px;
+        border: 1px solid var(--border);
+        border-radius: 32px;
+        background:
+          linear-gradient(120deg, rgba(12, 24, 38, 0.84), rgba(10, 16, 27, 0.72)),
+          url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
         box-shadow: var(--shadow);
+        padding: 34px 30px;
       }
 
       .hero-box::before {
         content: "";
         position: absolute;
-        top: -70px;
-        right: -55px;
-        width: 280px;
-        height: 280px;
-        border-radius: 50%;
-        background: radial-gradient(circle, rgba(45, 212, 191, 0.26), transparent 62%);
-        pointer-events: none;
+        inset: 0;
+        background: linear-gradient(90deg, rgba(7,17,29,0.15), rgba(7,17,29,0.75));
+      }
+
+      .hero-inner {
+        position: relative;
+        z-index: 1;
       }
 
       .badge {
-        position: relative;
-        z-index: 1;
         display: inline-flex;
         align-items: center;
         padding: 8px 14px;
         background: rgba(45, 212, 191, 0.12);
         color: var(--primary);
-        border: 1px solid rgba(45, 212, 191, 0.26);
+        border: 1px solid rgba(45, 212, 191, 0.28);
         border-radius: 999px;
         font-size: 12px;
         font-weight: 800;
@@ -164,42 +157,33 @@
       }
 
       h1 {
-        position: relative;
-        z-index: 1;
         margin: 18px 0 14px;
-        font-size: clamp(2.2rem, 5vw, 4.1rem);
+        font-size: clamp(2.3rem, 5vw, 4.1rem);
         line-height: 1.12;
       }
 
       .lead {
-        position: relative;
-        z-index: 1;
-        max-width: 790px;
+        max-width: 760px;
         color: var(--muted);
         font-size: 1.08rem;
         margin: 0 0 26px;
       }
 
       .hero-actions {
-        position: relative;
-        z-index: 1;
         display: flex;
         flex-wrap: wrap;
         gap: 14px;
-        margin-bottom: 24px;
+        margin-bottom: 22px;
       }
 
       .stats {
-        position: relative;
-        z-index: 1;
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 18px;
-        margin-top: 10px;
       }
 
       .stat {
-        background: rgba(255, 255, 255, 0.02);
+        background: rgba(255, 255, 255, 0.04);
         border: 1px solid var(--border);
         border-radius: 18px;
         padding: 18px 16px;
@@ -229,7 +213,7 @@
 
       .section-head h2 {
         margin: 0;
-        font-size: clamp(1.5rem, 3vw, 2.3rem);
+        font-size: clamp(1.5rem, 3vw, 2.25rem);
       }
 
       .cards {
@@ -254,6 +238,32 @@
       .card p {
         margin: 0 0 18px;
         color: var(--muted);
+      }
+
+      .device-card {
+        background: linear-gradient(135deg, rgba(18, 36, 56, 0.9), rgba(12, 19, 28, 0.9));
+        overflow: hidden;
+      }
+
+      .device-visual {
+        height: 200px;
+        border-radius: 18px;
+        margin-bottom: 14px;
+        background-size: cover;
+        background-position: center;
+        border: 1px solid var(--border);
+      }
+
+      .device-visual[data-type="vu"] {
+        background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80');
+      }
+
+      .device-visual[data-type="dreambox"] {
+        background-image: url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=900&q=80');
+      }
+
+      .device-visual[data-type="enigma"] {
+        background-image: url('https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=900&q=80');
       }
 
       .download-item {
@@ -351,7 +361,7 @@
         left: 12px;
         background: rgba(45, 212, 191, 0.12);
         color: #dffcf5;
-        border: 1px solid rgba(45, 212, 191, 0.28);
+        border: 1px solid rgba(45, 212, 191, 0.3);
         border-radius: 10px;
         padding: 8px 12px;
         cursor: pointer;
@@ -415,7 +425,7 @@
         <nav class="nav">
           <a href="#downloads">التحميل</a>
           <a href="#install">التثبيت</a>
-          <a href="#methods">طرق النقل</a>
+          <a href="#devices">الأجهزة</a>
           <a href="#guide">دليل</a>
         </nav>
       </div>
@@ -425,45 +435,46 @@
       <section class="hero">
         <div class="container">
           <div class="hero-box">
-            <div class="badge">قائمة قنوات Enigma2</div>
+            <div class="hero-inner">
+              <div class="badge">قائمة قنوات Enigma2</div>
 
-            <h1>تحميل قوائم قنوات Enigma2 بسهولة وسرعة</h1>
+              <h1>تحميل قوائم قنوات Enigma2 بسهولة وسرعة</h1>
 
-            <p class="lead">
-              نقدم لك ملفات قنوات Enigma2 جاهزة للاستخدام، مع إمكانية النقل إلى جهاز الاستقبال
-              عبر USB أو FTP أو Telnet/SSH. جميع الملفات مصممة لتسهيل العملية على المستخدمين
-              وتوفير تجربة سريعة وبسيطة.
-            </p>
+              <p class="lead">
+                ملفات قنوات Enigma2 جاهزة للاستخدام مع أجهزة الاستقبال الحديثة مثل Vu+ و Dreambox
+                و أنظمة التشغيل الأخرى. حمل الملف الآن، ثم انقله إلى جهاز الاستقبال الخاص بك عبر USB أو FTP أو Telnet/SSH.
+              </p>
 
-            <div class="hero-actions">
-              <a
-                class="btn btn-primary"
-                href="https://github.com/online4tech/Enigma2-Chanal-List-BYRomeh/raw/main/channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                تحميل الملف الآن
-              </a>
+              <div class="hero-actions">
+                <a
+                  class="btn btn-primary"
+                  href="https://github.com/online4tech/Enigma2-Chanal-List-BYRomeh/raw/main/channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  تحميل الملف الآن
+                </a>
 
-              <a class="btn btn-secondary" href="#downloads">
-                عرض ملفات التحميل
-              </a>
-            </div>
-
-            <div class="stats">
-              <div class="stat">
-                <strong>1</strong>
-                <span>صفحة تحميل احترافية</span>
+                <a class="btn btn-secondary" href="#downloads">
+                  عرض ملفات التحميل
+                </a>
               </div>
 
-              <div class="stat">
-                <strong>3</strong>
-                <span>طرق نقل سهلة</span>
-              </div>
+              <div class="stats">
+                <div class="stat">
+                  <strong>1</strong>
+                  <span>واجهة احترافية</span>
+                </div>
 
-              <div class="stat">
-                <strong>24/7</strong>
-                <span>سهولة الاستخدام</span>
+                <div class="stat">
+                  <strong>3</strong>
+                  <span>طرق نقل سهلة</span>
+                </div>
+
+                <div class="stat">
+                  <strong>24/7</strong>
+                  <span>سهولة الاستخدام</span>
+                </div>
               </div>
             </div>
           </div>
@@ -540,6 +551,34 @@
         </div>
       </section>
 
+      <section class="section" id="devices">
+        <div class="container">
+          <div class="section-head">
+            <h2>أجهزة الاستقبال</h2>
+          </div>
+
+          <div class="cards">
+            <article class="card device-card">
+              <div class="device-visual" data-type="enigma"></div>
+              <h3>Enigma2</h3>
+              <p>واجهة مستقرة ومناسبة للعروض المتقدمة والتحديثات السريعة.</p>
+            </article>
+
+            <article class="card device-card">
+              <div class="device-visual" data-type="vu"></div>
+              <h3>Vu+</h3>
+              <p>أجهزة قوية وموثوقة مع دعم ممتاز للأنظمة الحديثة والتطبيقات.</p>
+            </article>
+
+            <article class="card device-card">
+              <div class="device-visual" data-type="dreambox"></div>
+              <h3>Dreambox</h3>
+              <p>من أشهر الأجهزة المعروفة في عالم الاستقبال التلفزيوني والـ IPTV.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section class="section" id="install">
         <div class="container">
           <div class="section-head">
@@ -578,46 +617,6 @@
                 <li>أعد التشغيل أو استخدم Re-scan.</li>
                 <li>تأكد من ظهور القائمة بشكل صحيح.</li>
               </ol>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="methods">
-        <div class="container">
-          <div class="section-head">
-            <h2>طرق النقل السريعة</h2>
-          </div>
-
-          <div class="cards">
-            <article class="card">
-              <h3>USB</h3>
-              <p>الأسهل والأسرع للمستخدمين العاديين.</p>
-              <ul class="feature-list">
-                <li>سريع ومباشر</li>
-                <li>لا يحتاج إلى شبكة</li>
-                <li>مناسب لمعظم الأجهزة</li>
-              </ul>
-            </article>
-
-            <article class="card">
-              <h3>FTP</h3>
-              <p>مناسب للمستخدمين الذين يفضلون النقل عبر الشبكة.</p>
-              <ul class="feature-list">
-                <li>نقل سلس</li>
-                <li>مناسب للملفات الكبيرة</li>
-                <li>مرن ومريح</li>
-              </ul>
-            </article>
-
-            <article class="card">
-              <h3>Telnet / SSH</h3>
-              <p>حل متقدم ويستخدم في التعديلات والوضع اليدوي.</p>
-              <ul class="feature-list">
-                <li>تحكم كامل</li>
-                <li>مناسب للمستخدمين المتقدمين</li>
-                <li>خيارات أكثر</li>
-              </ul>
             </article>
           </div>
         </div>
