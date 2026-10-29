@@ -23,6 +23,7 @@
         --muted: #bdd6eb;
         --border: rgba(255, 255, 255, 0.08);
         --shadow: 0 24px 50px rgba(2, 6, 23, 0.5);
+        --side-width: clamp(150px, 13vw, 250px);
       }
 
       * { box-sizing: border-box; }
@@ -43,6 +44,98 @@
       .container {
         width: min(1180px, calc(100% - 30px));
         margin: 0 auto;
+      }
+
+      .visual-shell {
+        position: fixed;
+        top: 108px;
+        left: 0;
+        right: 0;
+        z-index: 0;
+        pointer-events: none;
+        display: none;
+      }
+
+      .visual-panel {
+        position: absolute;
+        top: 0;
+        width: var(--side-width);
+        max-width: 250px;
+        opacity: 0.8;
+        transition: opacity 0.3s ease;
+      }
+
+      .visual-panel-left {
+        left: clamp(10px, 2vw, 28px);
+      }
+
+      .visual-panel-right {
+        right: clamp(10px, 2vw, 28px);
+      }
+
+      .visual-stack {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      .visual-card {
+        position: relative;
+        overflow: hidden;
+        border-radius: 22px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        background: rgba(10, 19, 29, 0.34);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        box-shadow: 0 18px 36px rgba(2, 6, 23, 0.18);
+        transform: translate3d(0, 0, 0);
+        will-change: transform;
+      }
+
+      .visual-card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(7,17,29,0.14), rgba(7,17,29,0.68));
+        z-index: 1;
+      }
+
+      .visual-card img {
+        display: block;
+        width: 100%;
+        height: 190px;
+        object-fit: cover;
+        filter: saturate(0.9) brightness(0.72) contrast(1.08);
+        opacity: 0.85;
+        transform: scale(1.05);
+      }
+
+      .visual-meta {
+        position: absolute;
+        right: 12px;
+        left: 12px;
+        bottom: 12px;
+        z-index: 2;
+      }
+
+      .visual-label {
+        display: inline-block;
+        padding: 5px 10px;
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        border-radius: 999px;
+        background: rgba(45, 212, 191, 0.12);
+        border: 1px solid rgba(45, 212, 191, 0.24);
+        color: var(--primary);
+        margin-bottom: 8px;
+      }
+
+      .visual-title {
+        display: block;
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: var(--text);
       }
 
       .topbar {
@@ -383,8 +476,24 @@
         color: var(--muted);
       }
 
+      @media (min-width: 1440px) {
+        .visual-shell {
+          display: block;
+        }
+
+        .nav {
+          gap: 18px;
+        }
+      }
+
       @media (max-width: 900px) {
         .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      }
+
+      @media (max-width: 1439px) {
+        .visual-shell {
+          display: none !important;
+        }
       }
 
       @media (max-width: 700px) {
@@ -412,9 +521,27 @@
           width: 100%;
         }
       }
+
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+          scroll-behavior: auto !important;
+        }
+      }
     </style>
   </head>
   <body>
+    <div class="visual-shell" aria-hidden="true">
+      <aside class="visual-panel visual-panel-left">
+        <div class="visual-stack" id="leftVisuals"></div>
+      </aside>
+      <aside class="visual-panel visual-panel-right">
+        <div class="visual-stack" id="rightVisuals"></div>
+      </aside>
+    </div>
+
     <header class="topbar">
       <div class="container topbar-inner">
         <div class="brand">
@@ -432,7 +559,7 @@
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero" id="overview">
         <div class="container">
           <div class="hero-box">
             <div class="hero-inner">
@@ -649,6 +776,101 @@ tar -xzf channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz</pre>
     </footer>
 
     <script>
+      const visualsBySection = {
+        overview: {
+          left: [
+            { label: 'Dreambox', title: 'Dreambox One', src: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80' },
+            { label: 'Dreambox', title: 'DM920', src: 'https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=800&q=80' }
+          ],
+          right: [
+            { label: 'VU+', title: 'VU+ Ultimo', src: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80' },
+            { label: 'VU+', title: 'VU+ Zero 4K', src: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80' }
+          ]
+        },
+        downloads: {
+          left: [
+            { label: 'Backup', title: 'Backup & Restore', src: 'https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=800&q=80' },
+            { label: 'Storage', title: 'Cloud Recovery', src: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80' }
+          ],
+          right: [
+            { label: 'Plugins', title: 'Plugin Manager', src: 'https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=800&q=80' },
+            { label: 'GitHub', title: 'Code Library', src: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=80' }
+          ]
+        },
+        devices: {
+          left: [
+            { label: 'Dreambox', title: 'Dreambox Two', src: 'https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=800&q=80' },
+            { label: 'Dreambox', title: 'Dreambox One', src: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80' }
+          ],
+          right: [
+            { label: 'VU+', title: 'VU+ Duo 4K', src: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80' },
+            { label: 'VU+', title: 'VU+ Ultimo', src: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80' }
+          ]
+        },
+        install: {
+          left: [
+            { label: 'Installer', title: 'Terminal', src: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=80' },
+            { label: 'Linux', title: 'Shell Scripts', src: 'https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?auto=format&fit=crop&w=800&q=80' }
+          ],
+          right: [
+            { label: 'SSH', title: 'Package Installer', src: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80' },
+            { label: 'System', title: 'Linux Core', src: 'https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=800&q=80' }
+          ]
+        },
+        guide: {
+          left: [
+            { label: 'Tutorial', title: 'Setup Guide', src: 'https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=800&q=80' },
+            { label: 'Panels', title: 'Control Center', src: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80' }
+          ],
+          right: [
+            { label: 'IPTV', title: 'Streaming Library', src: 'https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=800&q=80' },
+            { label: 'Audio', title: 'Waveform Visualizer', src: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80' }
+          ]
+        }
+      };
+
+      const sideLeft = document.getElementById('leftVisuals');
+      const sideRight = document.getElementById('rightVisuals');
+
+      function renderSideCards(list, root) {
+        root.innerHTML = list.map((item, index) => `
+          <article class="visual-card" style="transform: translateY(${index * 2}px);">
+            <img src="${item.src}&fm=webp" alt="${item.title}" loading="lazy" decoding="async" />
+            <div class="visual-meta">
+              <span class="visual-label">${item.label}</span>
+              <span class="visual-title">${item.title}</span>
+            </div>
+          </article>
+        `).join('');
+      }
+
+      function updateSideVisuals() {
+        const sections = [...document.querySelectorAll('section[id]')];
+        const viewportMid = window.innerHeight * 0.38;
+        let activeSection = 'overview';
+
+        for (const section of sections) {
+          const rect = section.getBoundingClientRect();
+          if (rect.top <= viewportMid && rect.bottom >= viewportMid) {
+            activeSection = section.id;
+            break;
+          }
+        }
+
+        const current = visualsBySection[activeSection] || visualsBySection.overview;
+        renderSideCards(current.left, sideLeft);
+        renderSideCards(current.right, sideRight);
+
+        const cards = [...document.querySelectorAll('.visual-card')];
+        cards.forEach((card, index) => {
+          card.style.transform = `translate3d(0, ${index * 2}px, 0) rotate(${index % 2 === 0 ? '0.25deg' : '-0.25deg'})`;
+        });
+      }
+
+      updateSideVisuals();
+      window.addEventListener('scroll', updateSideVisuals, { passive: true });
+      window.addEventListener('resize', updateSideVisuals);
+
       const copyBtn = document.getElementById('copyBtn');
       const downloadCommand = document.getElementById('downloadCommand').innerText;
 
